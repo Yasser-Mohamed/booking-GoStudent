@@ -88,7 +88,8 @@ export default function BookingCheckout({ selected }: { selected: string }) {
                         <ReactFlagsSelect
                             selected={selectedCountry}
                             onSelect={(code) => setSelectedCountry(code)}
-                            className="bg-gray-50 !border-0 rounded"
+                            className="bg-gray-50 !border-0 rounded !w-40 md:!w-full"
+                            fullWidth
                             searchable
                         />
                     </div>
